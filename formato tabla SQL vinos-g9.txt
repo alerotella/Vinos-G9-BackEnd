@@ -1,0 +1,14 @@
+En SQL, crear base de datos "vinos-g9"
+
+Para crear la tabla usar el siguiente script:
+
+Table,"Create Table"
+vinos,"CREATE TABLE `vinos` (
+  `id_vino` int NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(45) NOT NULL,
+  `nombre_vino` varchar(45) NOT NULL,
+  `año_vino` int NOT NULL,
+  `foto` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id_vino`)
+) ENGINE=InnoDB AUTO_INCREMENT=22 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci"
+
